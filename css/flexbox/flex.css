@@ -1,0 +1,14 @@
+.flex {
+    display: flex;
+    background-color: violet;
+}
+
+.flex > div {
+    border: 1px solid aquamarine;
+    flex: 1;
+}
+
+.flex > img {
+    inline-size: 400px;
+    flex-shrink: 0;
+}
